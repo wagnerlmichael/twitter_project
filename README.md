@@ -1,5 +1,5 @@
-# twitter_project
+# Rough Draft of Twitter textual analysis
 
-Some Project Ideas
-- writing script to automatically generate NLP visualizations by inputting a username (eg, last 1000 tweets or tweets over last x time period)
-- random sample of tweets to discern either bot activity or general sentiment analysis 
+Currently working on finding the best way to clean text data, and which analysis to use. Textblob is the current working package.
+
+Looking to build a program eventually where you can enter a twitter username and # of tweets (+argument for RTs) and return basic textual analysis.
