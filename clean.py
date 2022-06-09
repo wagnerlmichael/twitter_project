@@ -63,9 +63,9 @@ df.shape
 df[df.columns[0:2]].head(10)
 
 # used this to write my data to csv
-"""filepath = Path(
-    '/Users/michaelwagner/Dropbox/proj/data.csv')
-df.to_csv(filepath, index=False)"""
+filepath = Path(
+    '/Users/michaelwagner/Dropbox/twitter_text/twitter_project/data.csv')
+df.to_csv(filepath, index=False)
 
 
 """
