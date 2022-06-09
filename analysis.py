@@ -4,7 +4,7 @@ from textblob import TextBlob
 df = pd.read_csv("/Users/michaelwagner/Dropbox/proj/data.csv")
 df.head()
 
-#need to figure out how to filter our non - text blobbable words, biasing by providing too many neutrals
+# need to figure out how to filter our non - text blobbable words, biasing by providing too many neutrals
 df['sentiment'] = df['clean_tweets'].apply(lambda x: TextBlob(x).sentiment)
 df['sentiment'].head(10)
 

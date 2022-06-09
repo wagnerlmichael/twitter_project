@@ -1,15 +1,8 @@
 import tweepy as tw
 import pandas as pd
-import matplotlib.pyplot as plt
 import re
 import spacy
 nlp = spacy.load('en_core_web_lg')
-import seaborn as sns
-from nltk.stem.snowball import SnowballStemmer
-import preprocessor as p
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
 from pathlib import Path
 
 # import API credentials
