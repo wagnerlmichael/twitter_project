@@ -67,7 +67,13 @@ df[df.columns[0:2]].head(10)
     '/Users/michaelwagner/Dropbox/proj/data.csv')
 df.to_csv(filepath, index=False)"""
 
-# check
+
+"""
+The code below parses tweet data into
+ - list of tweets
+ - list of words of all tweets combined
+
+
 the_list = []
 for i in df.clean_tweets:
     the_list.append(i)
@@ -78,7 +84,7 @@ for sentence in clean_sentences:
     words = sentence.split()
     for w in words:
         clean_words.append(w)
-
+"""
 
 # https://www.youtube.com/watch?v=bNDRiaFyLrs
 """
